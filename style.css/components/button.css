@@ -19,7 +19,31 @@
     margin-right: 15px;
 }
 
-.button-header.button-hero:hover {
+.button-header.button-hero:hover, .button:hover {
     border: 2px solid #23b7a4;
     background-color: #23b7a4;
+}
+
+/* WORK section */
+
+.button-2 {
+    width: 147px;
+}
+
+.form-control-2 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTACTS */
+
+.button-contacts {
+    background-color: #23b7a4;
+    border: 2px solid #23b7a4;
+}
+
+.button-contacts:hover {
+    background-color: #3a454d;
+    border: 2px solid #3a454d;
 }

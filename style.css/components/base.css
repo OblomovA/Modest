@@ -3,10 +3,10 @@
 }
 
 html {
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-weight: 400;
-    color: #8d8f92;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  color: #8d8f92;
 }
 
 body {
@@ -20,64 +20,56 @@ body {
 }
 
 .title, button, .uppercase {
-    font-family: "Quattrocento Sans";
-    text-transform: uppercase;
+  font-family: "Quattrocento Sans";
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
-.title {
-    color: #292f36;
-    font-size: 36px;
-    font-weight: 500;
+.title, .member-name {
+  color: #292f36;
+  font-size: 36px;
 }
 
+/* border */
 .section-title {
-    border-left: 10px solid #e1e6ea;
-    padding: 0 0 0 14px;
-    margin: 0;
+  border-left: 10px solid #e1e6ea;
+  padding: 0 0 0 14px;
+  margin: 0;
 }
 
 .title-reverse {
-    color: #ffffff;
-    border-left: 10px solid #4e5a62;
+  color: #ffffff;
+  border-left: 10px solid #4e5a62;
 }
 
 .section-header {
-    padding-bottom: 63px;
+  padding-bottom: 63px;
 }
 
 section {
-    margin-bottom: 100px;
+  padding-top: 86px;
+  padding-bottom: 99px;
 }
 
 .section-reverse {
-    background-color: #3a454d;
+  background-color: #3a454d;
 }
 
 .section-reverse:first-child {
-    padding: 90px 0 62px;
+  padding: 90px 0 62px;
 }
 
 .section-reverse:last-child {
-    padding: 90px 0 120px;
-}
-
-.reverse-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    background-color: #3a454d;
+  padding: 90px 0 120px;
 }
 
 img {
-    max-width: 100%;
-    object-fit: cover;
+  display: block;
+  object-fit: cover;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover, button:hover {
@@ -85,7 +77,7 @@ a:hover, button:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 0 0 0.67em 0;
+  margin: 0 0 0.67em 0;
 }
 
 * + h1, * + h2, * + h3,* + h4,* + h5,* + h6 {

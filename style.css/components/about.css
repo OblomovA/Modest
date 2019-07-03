@@ -24,3 +24,7 @@
 .section-description > p:last-child {
     margin-bottom: 16px;
 }
+
+.section-about {
+    border-bottom: 3px solid #dde1e4;
+}

@@ -1,0 +1,111 @@
+.section-cards {
+    display: flex;
+    margin: -15px;
+}
+
+.card {
+    position: relative;
+}
+
+.card {
+    padding: 15px;
+}
+
+.card-header {
+    position: relative;
+}
+
+.card-media {
+    margin: 0;
+}
+
+.card-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header-team:hover img, .card-header-work:hover img {
+    opacity: .4;
+}
+
+.card:hover .card-header .card-cover {
+    display: flex;
+}
+
+/* section TEAM */
+
+.card-header-team img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-body.person-body {
+    padding: 22px;
+    background-color: #e1e6ea;
+}
+
+.card-body.person-body > * {
+    margin: 0;
+}
+
+.card:hover .card-body.person-body {
+    color: #ffffff !important;
+    background-color: #3a454d;
+}
+
+/* section WORK */
+.cards-work, .section-what-we-do {
+    flex-wrap: wrap;
+}
+
+.cards-work {
+    margin-bottom: 63px;
+}
+
+.card-work img {
+    height: 265px;
+}
+
+.card-work {
+    width: 33.33%;
+}
+
+.card-cover.plus {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.card-work .work-body {
+    padding: 23px 20px;
+    margin: 0 15px;
+    background-color: #292f36;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+.card:hover .work-body {
+    display: flex;
+}
+
+/* section WHAT WE DO */
+
+.card-what-we-do {
+    width: 25%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.card-what-we-do > .card-header {
+    margin-bottom: 35px;    
+}

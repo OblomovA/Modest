@@ -1,0 +1,89 @@
+/* social icons common */
+
+.list-social {
+    display: flex;
+    padding: 0;
+}
+
+.list-social > li {
+    display: inline-block;
+    margin: 0 1px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section about */
+ol.list-modest {
+    list-style-type: none;
+    counter-reset: number;
+    padding: 0;
+}
+
+.list-modest > li {
+    display: flex;
+    margin-bottom: 35px;
+    position: relative;
+    left: 70px;
+}
+
+.list-modest > li::before {
+    counter-increment: number;
+    content: '0'counter(number);
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #23b7a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: #ffffff;
+    font-family: "Quattrocento Sans";
+    font-size: 20px;
+    font-weight: 500;
+    position: static;
+    position: absolute;
+    left: -70px;
+}
+
+.list-title {
+    color: #292f36;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.list-description {
+    color: #8d8f92;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0 0;
+}
+
+.list-social.list-about > li {
+    width: 60px;
+    height: 60px;  
+}
+
+.list-about > li {
+    background-color: #c8cdd0;
+}
+
+.list-about > li:hover {
+    background-color: #d0d5d9;
+}
+
+/* icons in section TEAM */
+.list-social-team {
+    width: 152px;
+}
+
+.list-social-team li {
+    width: 50px;
+    height: 50px;
+}
+
+.list-social-team > li > a > span:hover {
+    background-color: #4e5a62;
+}

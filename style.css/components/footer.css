@@ -1,0 +1,21 @@
+.footer {
+    background-color: #3a454d;
+    padding: 40px 0 38px;
+}
+
+.section-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    font-size: 14px;
+}
+
+.icons-footer > li {
+    width: 35px;
+}
+
+.icons-footer span:hover {
+    color: #23b7a4;
+}
