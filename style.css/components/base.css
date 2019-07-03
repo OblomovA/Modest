@@ -1,0 +1,108 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #8d8f92;
+}
+
+body {
+  width: 1900px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.title, button, .uppercase {
+    font-family: "Quattrocento Sans";
+    text-transform: uppercase;
+}
+
+.title {
+    color: #292f36;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.section-title {
+    border-left: 10px solid #e1e6ea;
+    padding: 0 0 0 14px;
+    margin: 0;
+}
+
+.title-reverse {
+    color: #ffffff;
+    border-left: 10px solid #4e5a62;
+}
+
+.section-header {
+    padding-bottom: 63px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.section-reverse {
+    background-color: #3a454d;
+}
+
+.section-reverse:first-child {
+    padding: 90px 0 62px;
+}
+
+.section-reverse:last-child {
+    padding: 90px 0 120px;
+}
+
+.reverse-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #3a454d;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, button:hover {
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 0.67em 0;
+}
+
+* + h1, * + h2, * + h3,* + h4,* + h5,* + h6 {
+  margin:0.67em 0 0 0;
+}
+
+p, ul, ol, figure {
+  margin: 0 0 15px 0;
+}
+
+* + p, * + ul, * + ol, * + figure{
+  margin-top: 15px;
+}
+
+ul > li > ol,
+ul > li > ul,
+ol > li > ul,
+ol > li > ol {
+  margin: 0;
+}
